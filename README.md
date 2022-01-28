@@ -24,3 +24,6 @@ pip install -r requirements.txt
 ```
 python3 upload_raw_data.py data/счета_ansi.csv test_ansi
 ```
+
+
+![Фото БД](https://github.com/AlexViPy/test_innoseti/raw/main/db_schema.png)
