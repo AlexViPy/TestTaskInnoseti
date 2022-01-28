@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: demo_postgres
+    image: "postgres:12"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+      PGDATA: "/data/postgres"
+    ports:
+      - "15432:5432"
+    restart: unless-stopped
