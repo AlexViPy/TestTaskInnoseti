@@ -1,4 +1,4 @@
-# test_innoseti
+![Инносети](https://github.com/AlexViPy/test_innoseti/raw/main/img/label.jpeg)
 Тестовое задание для организации "Инносети"
 
 Для того, чтобы развернуть такое же окружение на своей машине необходимо:
@@ -38,7 +38,7 @@ python3 upload_raw_data.py data/счета_ansi.csv test_ansi
 
 Тем самым получается стандартная схема "звезды", которая представлена на схеме:
 
-![Фото БД](https://github.com/AlexViPy/test_innoseti/raw/main/db_schema.png)
+![Фото БД](https://github.com/AlexViPy/test_innoseti/raw/main/img/db_schema.png)
 
 - :white_check_mark: Скрипт по созданию таблиц - [create_tables.sql](https://github.com/AlexViPy/test_innoseti/blob/main/create_table.sql)
 - :white_check_mark: Выполненные задания по sql - [tasks.sql](https://github.com/AlexViPy/test_innoseti/blob/main/tasks.sql.sql)
